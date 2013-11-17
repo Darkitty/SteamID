@@ -52,7 +52,7 @@
 				return null;
 			}
 			
-			return SteamID.match( /^STEAM_0:([0-1]):([0-9]+)$/ );
+			return SteamID.match( /^STEAM_[0-5]:([0-1]):([0-9]+)$/ );
 		},
 		
 		SetAccountID: function( AccountID )
